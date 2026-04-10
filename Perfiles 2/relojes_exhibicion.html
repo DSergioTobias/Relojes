@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colección · Exhibición</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="relojes.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="nav-logo">◈</span>
+      <span class="nav-name">Chrono<em>Luxe</em></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="relojes_exhibicion.html" class="nav-link active">Exhibición</a></li>
+      <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+      <li><a href="contacto.html" class="nav-link nav-cta">Reservar cita</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleSidebar()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <span class="sidebar-logo">◈ ChronoLuxe</span>
+      <button class="sidebar-close" onclick="toggleSidebar()">✕</button>
+    </div>
+    <nav class="sidebar-nav">
+      <p class="sidebar-section-label">Menú</p>
+      <a href="relojes_exhibicion.html" class="sidebar-link active">
+        <span class="sidebar-icon">◉</span> Exhibición
+      </a>
+      <a href="contacto.html" class="sidebar-link">
+        <span class="sidebar-icon">◎</span> Contacto
+      </a>
+      <a href="contacto.html" class="sidebar-link">
+        <span class="sidebar-icon">◈</span> Reservar cita
+      </a>
+      <div class="sidebar-divider"></div>
+      <p class="sidebar-section-label">Colecciones</p>
+      <a href="relojes_exhibicion.html" class="sidebar-link">
+        <span class="sidebar-icon">▸</span> Tourbillon
+      </a>
+      <a href="relojes_exhibicion.html" class="sidebar-link">
+        <span class="sidebar-icon">▸</span> Cronógrafos
+      </a>
+      <a href="relojes_exhibicion.html" class="sidebar-link">
+        <span class="sidebar-icon">▸</span> Dress Watches
+      </a>
+    </nav>
+    <div class="sidebar-footer">
+      <p>Exhibición permanente</p>
+      <p>Barranquilla · Colombia</p>
+    </div>
+  </aside>
+  <div class="sidebar-overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="main-content">
+    <div class="hero">
+      <p class="eyebrow">Colección de exhibición</p>
+      <h1 class="hero-title">El arte de medir<br><em>el tiempo</em></h1>
+      <div class="divider"></div>
+    </div>
+
+    <div class="grid">
+
+      <!-- Carta 1 -->
+      <div class="card">
+        <div class="watch-display">
+          <span class="badge badge-gold">Edición especial</span>
+          <svg class="watch-svg" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+            <rect x="62" y="2" width="36" height="26" rx="6" fill="#C8A96E" opacity="0.9"/>
+            <rect x="67" y="6" width="26" height="18" rx="4" fill="#B8924A" opacity="0.5"/>
+            <rect x="62" y="132" width="36" height="26" rx="6" fill="#C8A96E" opacity="0.9"/>
+            <rect x="67" y="136" width="26" height="18" rx="4" fill="#B8924A" opacity="0.5"/>
+            <circle cx="80" cy="80" r="46" fill="#1A1410" stroke="#C8A96E" stroke-width="2"/>
+            <circle cx="80" cy="80" r="40" fill="#0D0B08" stroke="#A07830" stroke-width="0.5"/>
+            <circle cx="80" cy="80" r="36" fill="#0A0704"/>
+            <g stroke="#C8A96E" stroke-width="1.5"><line x1="80" y1="46" x2="80" y2="52"/><line x1="80" y1="108" x2="80" y2="114"/><line x1="46" y1="80" x2="52" y2="80"/><line x1="108" y1="80" x2="114" y2="80"/></g>
+            <text x="80" y="58" text-anchor="middle" font-family="Georgia,serif" font-size="7" fill="#C8A96E">XII</text>
+            <text x="80" y="108" text-anchor="middle" font-family="Georgia,serif" font-size="7" fill="#C8A96E">VI</text>
+            <text x="51" y="83" text-anchor="middle" font-family="Georgia,serif" font-size="7" fill="#C8A96E">IX</text>
+            <text x="109" y="83" text-anchor="middle" font-family="Georgia,serif" font-size="7" fill="#C8A96E">III</text>
+            <circle cx="80" cy="88" r="9" fill="none" stroke="#C8A96E" stroke-width="0.7" opacity="0.8"/>
+            <circle cx="80" cy="88" r="6" fill="none" stroke="#A07830" stroke-width="0.5"/>
+            <circle cx="80" cy="88" r="2" fill="#C8A96E"/>
+            <line x1="80" y1="80" x2="80" y2="58" stroke="#C8A96E" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="80" y1="80" x2="93" y2="75" stroke="#C8A96E" stroke-width="1" stroke-linecap="round"/>
+            <circle cx="80" cy="80" r="2" fill="#C8A96E"/>
+            <rect x="124" y="77" width="8" height="6" rx="2" fill="#B8924A"/>
+          </svg>
+        </div>
+        <div class="card-body">
+          <p class="brand">Maison Aurel</p>
+          <p class="model">Tourbillon Céleste</p>
+          <div class="specs">
+            <div class="spec-row"><span class="spec-label">Movimiento</span><span class="spec-val">Manual — 72h</span></div>
+            <div class="spec-row"><span class="spec-label">Caja</span><span class="spec-val">Oro rosa 18K · 40mm</span></div>
+            <div class="spec-row"><span class="spec-label">Cristal</span><span class="spec-val">Zafiro anti-reflejo</span></div>
+            <div class="spec-row"><span class="spec-label">Ref.</span><span class="spec-val">AU-T001-RG</span></div>
+          </div>
+          <div class="sep"></div>
+          <div class="price-row">
+            <span class="price">$48,500</span>
+            <a href="contacto.html" class="cta">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carta 2 -->
+      <div class="card">
+        <div class="watch-display">
+          <span class="badge badge-new">Nuevo</span>
+          <svg class="watch-svg" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+            <rect x="62" y="2" width="36" height="26" rx="6" fill="#2A2A2A" opacity="0.9"/>
+            <rect x="67" y="6" width="26" height="18" rx="4" fill="#1A1A1A" opacity="0.5"/>
+            <rect x="62" y="132" width="36" height="26" rx="6" fill="#2A2A2A" opacity="0.9"/>
+            <rect x="67" y="136" width="26" height="18" rx="4" fill="#1A1A1A" opacity="0.5"/>
+            <circle cx="80" cy="80" r="46" fill="#1C1C1C" stroke="#444" stroke-width="1.5"/>
+            <circle cx="80" cy="80" r="40" fill="#111" stroke="#333" stroke-width="0.5"/>
+            <circle cx="80" cy="80" r="36" fill="#0E0E0E"/>
+            <circle cx="80" cy="80" r="34" fill="none" stroke="#E03030" stroke-width="1.5" stroke-dasharray="2 4"/>
+            <circle cx="80" cy="60" r="9" fill="none" stroke="#333" stroke-width="0.7"/>
+            <circle cx="62" cy="88" r="7" fill="none" stroke="#333" stroke-width="0.7"/>
+            <circle cx="98" cy="88" r="7" fill="none" stroke="#333" stroke-width="0.7"/>
+            <line x1="80" y1="60" x2="80" y2="53" stroke="#E03030" stroke-width="1" stroke-linecap="round"/>
+            <line x1="62" y1="88" x2="58" y2="85" stroke="#CCC" stroke-width="0.8" stroke-linecap="round"/>
+            <line x1="98" y1="88" x2="102" y2="85" stroke="#CCC" stroke-width="0.8" stroke-linecap="round"/>
+            <text x="80" y="78" text-anchor="middle" font-family="'Josefin Sans',sans-serif" font-size="5.5" fill="#888" letter-spacing="2">CHRONO</text>
+            <text x="80" y="85" text-anchor="middle" font-family="Georgia,serif" font-size="4.5" fill="#555">SWISS MADE</text>
+            <line x1="80" y1="80" x2="72" y2="52" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="80" y1="80" x2="96" y2="72" stroke="white" stroke-width="1" stroke-linecap="round"/>
+            <line x1="80" y1="80" x2="76" y2="100" stroke="#E03030" stroke-width="0.8" stroke-linecap="round"/>
+            <circle cx="80" cy="80" r="2.5" fill="#E03030"/>
+            <rect x="124" y="68" width="7" height="5" rx="2" fill="#333"/>
+            <rect x="124" y="87" width="7" height="5" rx="2" fill="#333"/>
+            <rect x="124" y="77" width="8" height="6" rx="2" fill="#333"/>
+          </svg>
+        </div>
+        <div class="card-body">
+          <p class="brand">Vantier Sport</p>
+          <p class="model">Chronos Velocity</p>
+          <div class="specs">
+            <div class="spec-row"><span class="spec-label">Movimiento</span><span class="spec-val">Automático — 50h</span></div>
+            <div class="spec-row"><span class="spec-label">Caja</span><span class="spec-val">Acero PVD · 42mm</span></div>
+            <div class="spec-row"><span class="spec-label">Cristal</span><span class="spec-val">Zafiro convexo</span></div>
+            <div class="spec-row"><span class="spec-label">Ref.</span><span class="spec-val">VS-C200-BK</span></div>
+          </div>
+          <div class="sep"></div>
+          <div class="price-row">
+            <span class="price">$12,800</span>
+            <a href="contacto.html" class="cta">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carta 3 -->
+      <div class="card">
+        <div class="watch-display">
+          <span class="badge badge-ltd">Limitado</span>
+          <svg class="watch-svg" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+            <rect x="63" y="2" width="34" height="26" rx="5" fill="#8B4513" opacity="0.9"/>
+            <rect x="68" y="5" width="24" height="20" rx="3" fill="#6B3410" opacity="0.6"/>
+            <line x1="66" y1="10" x2="94" y2="10" stroke="#5A2D0C" stroke-width="0.5" opacity="0.4"/>
+            <line x1="66" y1="14" x2="94" y2="14" stroke="#5A2D0C" stroke-width="0.5" opacity="0.4"/>
+            <line x1="66" y1="18" x2="94" y2="18" stroke="#5A2D0C" stroke-width="0.5" opacity="0.4"/>
+            <rect x="63" y="132" width="34" height="26" rx="5" fill="#8B4513" opacity="0.9"/>
+            <rect x="68" y="135" width="24" height="20" rx="3" fill="#6B3410" opacity="0.6"/>
+            <line x1="66" y1="140" x2="94" y2="140" stroke="#5A2D0C" stroke-width="0.5" opacity="0.4"/>
+            <line x1="66" y1="144" x2="94" y2="144" stroke="#5A2D0C" stroke-width="0.5" opacity="0.4"/>
+            <line x1="66" y1="148" x2="94" y2="148" stroke="#5A2D0C" stroke-width="0.5" opacity="0.4"/>
+            <ellipse cx="80" cy="80" rx="44" ry="46" fill="#F2EDE0" stroke="#DDD0B0" stroke-width="1.5"/>
+            <ellipse cx="80" cy="80" rx="39" ry="41" fill="#FEFCF6" stroke="#E8D898" stroke-width="0.5"/>
+            <ellipse cx="80" cy="80" rx="35" ry="37" fill="#FDFAF0"/>
+            <g fill="#B8963E">
+              <rect x="78.5" y="44" width="3" height="8" rx="1"/>
+              <rect x="78.5" y="108" width="3" height="8" rx="1"/>
+              <rect x="42" y="78.5" width="8" height="3" rx="1"/>
+              <rect x="110" y="78.5" width="8" height="3" rx="1"/>
+            </g>
+            <text x="80" y="70" text-anchor="middle" font-family="Georgia,serif" font-size="5.5" fill="#8B7340" font-style="italic">Élandre</text>
+            <text x="80" y="91" text-anchor="middle" font-family="Georgia,serif" font-size="4" fill="#B0A070" letter-spacing="1">GENÈVE</text>
+            <path d="M80 80 L77 58 L80 62 L83 58 Z" fill="#8B6914"/>
+            <path d="M80 80 L78 72 L92 76 L89 78 Z" fill="#8B6914"/>
+            <circle cx="80" cy="80" r="2" fill="#B8963E"/>
+            <rect x="123" y="77.5" width="8" height="5" rx="2" fill="#C8A84E"/>
+          </svg>
+        </div>
+        <div class="card-body">
+          <p class="brand">Élandre Genève</p>
+          <p class="model">Calendrier Perpétuel</p>
+          <div class="specs">
+            <div class="spec-row"><span class="spec-label">Movimiento</span><span class="spec-val">Manual — calibre 5L</span></div>
+            <div class="spec-row"><span class="spec-label">Caja</span><span class="spec-val">Platino · 38mm</span></div>
+            <div class="spec-row"><span class="spec-label">Esfera</span><span class="spec-val">Marfil guilloché</span></div>
+            <div class="spec-row"><span class="spec-label">Ref.</span><span class="spec-val">EL-CP38-PT</span></div>
+          </div>
+          <div class="sep"></div>
+          <div class="price-row">
+            <span class="price">$124,000</span>
+            <a href="contacto.html" class="cta">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <p class="footer-note">Relojes disponibles bajo cita previa &nbsp;·&nbsp; Exhibición permanente</p>
+  </main>
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('open');
+      document.getElementById('overlay').classList.toggle('open');
+      document.body.classList.toggle('sidebar-open');
+    }
+  </script>
+</body>
+</html>
